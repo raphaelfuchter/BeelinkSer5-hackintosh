@@ -1,0 +1,1 @@
+stable version in ventura 13.6.7 with open core 0.9.9
