@@ -1,0 +1,33 @@
+# Resume do SETUP
+
+Tipo:			Mini PC
+Mobo: 			AZW SER [03/22/2022 | FP55U303]
+CPU: 			Mobile DualCore AMD Ryzen 3 3200U
+Memória:		2x 8 GB DDR4-3200 DDR4
+dGPU/iGPU:		AMD Radeon(TM) Vega 3 Graphics (2 GB)
+Audio Codec:	USB DAC
+Ethernet:		Realtek PCIe GbE Family Controller
+Wireless/BT:	Intel(R) Dual Band Wireless-AC 3165
+Storage: 		NVME INTEL SSDPEKNW512G8 (512 GB, PCI-E 3.0 x4)
+Storage: 		SATA SSD 512GB (476 GB)
+
+## BIOS Settings
+
+[Press DEL for ENTER BIOS]
+
+	Save & Exit > Restore Defaults = YES
+
+	Main > System Date
+	Main > System Time
+
+	Advanced > Trusted Computing > Security Device Support = Disable
+	Advanced > AMD fTPM configuration > AMD fTPM switch = AMD CPU fTPM
+	Advanced > CPU Configuration > SVM Mode = Enabled
+	Advanced > USB Configuration > XHCI Hand-off = Enabled
+	Advanced > CSM Configuration > CSM Support = Disabled
+	Advanced > AMD CBS > NBIO Common Options > GFX Configuration > Integrated Graphics Controller = Force
+	Advanced > AMD CBS > NBIO Common Options > GFX Configuration > UMA Mode = UMA_SPECIFIED
+	Advanced > AMD CBS > NBIO Common Options > GFX Configuration > UMA Frame buffer Size = 2G
+
+	Security > Secure Boot > Secure Boot = Disabled
+	Save & Exit > Save Changes and Exit
